@@ -1,0 +1,10 @@
+GET http://localhost:3333/tarefas
+
+### 
+GET http://localhost:3333/tarefas/2
+
+### 
+POST http://localhost:3333/tarefas
+Content-Type: application/json
+
+

@@ -7,4 +7,4 @@ app.use(express.json())
 
 app.use(router)
 
-app.listen(3333, () => console.log('Servidor online!') )
+app.listen(3333, () => console.log(`Servidor online! On http://localhost:3333`) )
