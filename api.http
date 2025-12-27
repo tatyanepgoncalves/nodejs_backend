@@ -1,25 +1,24 @@
 GET http://localhost:3333/tarefas
 
 ### 
-GET http://localhost:3333/tarefas/2
+GET http://localhost:3333/tarefas/5
 
 ### 
 POST http://localhost:3333/tarefas
 Content-Type: application/json
 
 {
-  
-  "name": "Estudar Node.js e Express"
+  "name": "Estudar React"
 }
 
 ### 
-PUT http://localhost:3333/tarefas/1
+PUT http://localhost:3333/tarefas/4
 Content-Type: application/json
 
 {
   
-  "name": "Estudar Node.js e Express"
+  "name": "Estudar Docker"
 }
 
 ### 
-DELETE http://localhost:3333/tarefas/1
+DELETE http://localhost:3333/tarefas/3
