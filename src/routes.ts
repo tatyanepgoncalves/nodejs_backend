@@ -46,3 +46,12 @@ router.put("/tarefas/:index", (req: Request, res: Response) => {
   tarefas[Number(index)] = name
   res.json({ message: "Tarefa atualizada com sucesso!", tarefa: name })
 })
+
+// Remove uma tarefa
+router.delete("/tarefas/:index", (req: Request, res: Response) => {
+  const index = req.params.index
+
+  tarefas.splice(Number(index), 1)
+
+  res.json({ message: "Tarefa removida com sucesso!" })
+})

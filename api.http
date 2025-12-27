@@ -7,7 +7,10 @@ GET http://localhost:3333/tarefas/2
 POST http://localhost:3333/tarefas
 Content-Type: application/json
 
-
+{
+  
+  "name": "Estudar Node.js e Express"
+}
 
 ### 
 PUT http://localhost:3333/tarefas/1
@@ -17,3 +20,6 @@ Content-Type: application/json
   
   "name": "Estudar Node.js e Express"
 }
+
+### 
+DELETE http://localhost:3333/tarefas/1
