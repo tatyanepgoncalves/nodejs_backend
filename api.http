@@ -8,3 +8,12 @@ POST http://localhost:3333/tarefas
 Content-Type: application/json
 
 
+
+### 
+PUT http://localhost:3333/tarefas/1
+Content-Type: application/json
+
+{
+  
+  "name": "Estudar Node.js e Express"
+}
