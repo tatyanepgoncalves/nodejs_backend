@@ -1,0 +1,1 @@
+export const tarefas = ["Estudar Node JS","Fazer compras","Ler um livro"];
